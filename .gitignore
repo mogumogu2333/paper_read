@@ -1,0 +1,29 @@
+### --- macOS 专用 ---
+.DS_Store
+
+### --- Python 专用 ---
+# 字节码文件
+__pycache__/
+
+# 虚拟环境 (最重要)
+.venv/
+venv/
+ENV/
+env/
+# 分发/打包文件
+dist/
+build/
+*.egg-info/
+.installed.cfg
+*.egg
+
+### --- 编辑器/IDE 专用 ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+### --- 环境配置文件 (敏感信息) ---
+.env
+.flaskenv
+
